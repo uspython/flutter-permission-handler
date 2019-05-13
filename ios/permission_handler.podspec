@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 A new Flutter project.
                        DESC
-  s.homepage         = 'https://github.com/baseflowit/flutter-permission-handler'
+  s.homepage         = 'https://gitlab.city-home.cn/app/flutter-permission-handler.git'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Baseflow' => 'hello@baseflow.com' }
   s.source           = { :path => '.' }
@@ -18,5 +18,7 @@ A new Flutter project.
 
   s.ios.deployment_target = '8.0'
   s.static_framework = true
+  # exclude permission files for now
+  s.exclude_files = 'Classes/strategies/*Strategy.{h,m}'
 end
 

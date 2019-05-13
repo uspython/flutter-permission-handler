@@ -62,11 +62,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82FD5EB5794AE2583D3BD923 /* Pods-permission_handler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-permission_handler_Example.release.xcconfig"; path = "Target Support Files/Pods-permission_handler_Example/Pods-permission_handler_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97630ED9334C2D7DEA7572F4 /* permission_handler.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = permission_handler.podspec; path = ../permission_handler.podspec; sourceTree = "<group>"; };
+		97630ED9334C2D7DEA7572F4 /* permission_handler.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = permission_handler.podspec; path = ../permission_handler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D342A184A9FEF427C03D4F3 /* Pods_permission_handler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_permission_handler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF5F62137389B7930AFA1BD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BF5F62137389B7930AFA1BD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C710CE28631A526A495FD8C2 /* Pods-permission_handler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-permission_handler_Example.debug.xcconfig"; path = "Target Support Files/Pods-permission_handler_Example/Pods-permission_handler_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DE85464468B084106768C8CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DE85464468B084106768C8CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				0CDD5CCE51D3DC89AF79F8B6 /* Pods-permission_handler_Tests.debug.xcconfig */,
 				0F4F70F03C99966F704F50A5 /* Pods-permission_handler_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
