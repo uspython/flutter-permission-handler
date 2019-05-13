@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'permission_handler_Example' do
+  pod 'permission_handler', :path => '../'
+
+  target 'permission_handler_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
